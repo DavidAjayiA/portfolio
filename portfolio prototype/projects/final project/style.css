@@ -1,0 +1,427 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@800&display=swap');
+
+   body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: white; */
+   }
+
+   .container {
+    background: url('https://img.freepik.com/premium-photo/black-gold-office-with-leather-chair-desk-with-lamp-generative-ai_828075-406.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+   }
+
+   /* .container_links { */
+      /* display: flex;
+      gap: 2em;
+      background-color: rgb(248, 239, 239);
+      font-weight: bold;
+      cursor: pointer; */
+   /* } */
+  
+   nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; 
+      margin: 0 auto;
+      /* max-width: 95%; */
+      border: 3px solid red;
+      color: white;
+   }
+  
+   * {
+    padding: 0;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  label.emro {
+    color: red;
+    font-size: 25px;
+    line-height: 80px;
+  
+    font-weight: bold;
+  }
+
+   .nav:hover {
+    transition: all ease-in-out 300ms;
+    color: blue;
+   }
+
+   nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  a.m,
+  a:hover {
+    background: #1b9bff;
+    transition: 0.5s;
+  }
+
+  
+  
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+  /* border: 10px solid white; */
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+  label.emro {
+    font-size: 30px;
+    padding-left: 50px;
+    color: #ff0000;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.m {
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul, li {
+    left: 0;
+  }
+}
+  
+   nav a {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+   } 
+
+
+   .m:hover {
+    transition: all ease-in-out 300ms;
+    color: blue;
+   }
+
+   .a_links{
+    display: flex;
+    gap: 4em;
+   }
+
+   .m {
+    color: orange;
+   }
+
+   .a:hover {
+    transition: all ease-in-out 300ms;
+    color: blue;
+   }
+
+   .c {
+    margin-right: 1.3em
+   }
+
+   .c:hover {
+    transition: all ease-in-out 300ms;
+    color: blue;
+   }
+   
+
+   .txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 10em;
+    border: 1px solid red;
+   }
+
+   .txt h1 {
+      font-weight: bold;
+      font-size: 3em;
+      color: white;
+   }
+
+ .about {
+    /* border: 1px solid hotpink; */
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 1em 5em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 4em;
+ }
+
+ .about:hover {
+  transition: all ease-in-out 300ms;
+  color: white;
+  background-color: rgb(192, 128, 10);
+  box-shadow: 1px 4px 19px -3px rgba(255,255,255,0.69);
+  -webkit-box-shadow: 1px 4px 19px -3px rgba(255,255,255,0.69);
+  -moz-box-shadow: 1px 4px 19px -3px rgba(255,255,255,0.69);
+ }
+
+ .emro {
+   color: white;
+   font-size: .8.9em;
+ }
+
+ .capital{
+  color: orange;
+ }
+
+    .emro1 {
+      font-weight: bold;
+      font-size: 2em;
+      color: white;
+    }
+
+    .container1 {
+      text-align: center;
+      margin-top: 4em;
+    }
+
+    .container2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 4em;
+    }
+
+    .img {
+      width: 500px;
+    }
+
+    .main p {
+      font-weight: 100;
+      font-size: 1em;
+    }
+
+    .container3 {
+      /* border: 1px solid orangered; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6em;
+      margin-bottom: 5em;
+      margin-top: 4em;
+    }
+
+    .img1 {
+      /* border: 1px solid blue; */
+      margin-left: -2em;
+      width: 380px;
+    }
+
+    .main1 p {
+      font-weight: 100;
+      font-size: 1em;
+    }
+
+    .touch {
+      background-color: #0674ec;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+    }
+
+
+    .icon_flex{
+      float: right;
+      display: flex;
+      gap: 2em;
+      /* margin-left: 70em; */
+      padding: 0.9em;
+    }
+    
+    .fa-brands{
+      color: rgb(65, 64, 64);
+      background-color: white;
+      padding: .8em;
+      border-radius: 6em;
+      cursor: pointer;
+      text-align: center;
+    }
+
+
+    @media only screen and (max-width: 940px) {
+      /* .fresh {
+        width: 120%;
+        margin-left: 4em;
+      }
+     */
+      .click {
+        margin-top: 2em;
+      }      
+    
+      .introduction {
+        display: block;
+      }
+    
+      .skills {
+        margin-top: 5em;
+        /* border: 1px solid red; */
+        margin-bottom: 3em;
+      }
+    
+      .greetings {
+        font-size: 2em;
+      }
+    }
+    
+    @media only screen and (max-width: 750px) {
+      .fresh {
+        width: 100%;
+        margin-top: 3em;
+      }
+    
+      .introduction {
+        margin-top: 2em;
+        display: block;
+        /* border: 1px solid red; */
+      }
+    
+      .about {
+        margin-top: 3em;
+      }
+    
+      .About h2 {
+        margin-bottom: 1em;
+      }
+    
+      .inner {
+        display: block;
+      }
+    
+      .greetings {
+        display: none;
+        margin-top: 0;
+        /* border: 1px solid white; */
+      }
+    
+      .Skills {
+        display: block;
+        /* border: 1px solid red; */
+      }
+    
+      .profile {
+        margin-bottom: 2em;
+      }
+    
+      .works {
+        margin-top: 0;
+        margin-bottom: 2em;
+      }
+    
+      .Skillss {
+        display: block;
+        text-align: center;
+      }
+    
+      .first {
+        text-align: center;
+        margin-bottom: 2em;
+      }
+    
+      .Contact p {
+        text-align: center;
+        margin-bottom: 2em;
+      }
+    
+      .survey_form {
+        width: 90%;
+        padding: 0;
+        margin-bottom: 5em;
+      }
+    
+      #name,
+      #email,
+      #Message {
+        width: 90%;
+      }
+    
+      footer {
+        font-size: 0.8rem;
+      }
+    
+      .into {
+        width: 100%;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(248, 239, 239);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+ .nav_links {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 2em;
+    padding: .1em;
+    background-color: rgb(248, 239, 239);
+    font-weight: bold;
+ }
+
+ #features_options {
+    background-color: rgb(248, 239, 239);
+    border: none;
+    color:rgb(63, 62, 62);
+    font-weight: bold;
+ }
+
+ #company {
+    background-color: rgb(248, 239, 239);
+    border: none;
+    color: rgb(63, 62, 62);
+    font-weight: bold;
+ }
+
+ nav a {
+    margin-top: 1.3em;
+    color: rgb(63, 62, 62);
+    text-decoration: none;
+ }
+
+ .nav_btn {
+    /* border: 1px solid red; */
+    padding: 2em;
+ }
+
+ .login_btn {
+   cursor: pointer;
+   border: 1px solid ;
+   background-color: transparent;
+     border: black;
+    margin-right: 15px;
+    color:rgb(63, 62, 62);
+    font-weight: bold;
+ }
+
+ .register_btn {
+    background-color: transparent;
+    padding: 1em;
+    margin-right: 15px;
+    color:rgb(63, 62, 62);
+    font-weight: bold;
+    border-radius: 13px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: none;
+
+ }
+
+ .register_btn:hover {
+    transition: all ease-in-out 300ms;
+    color: rgb(63, 62, 62);
+ }
+
+ .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin: 0 auto;
+ }
+
+ .mini h1 {
+   font-weight: bold;
+   font-family: 'Raleway', sans-serif;
+   font-size: 3.5em;
+ }
+
+ .mini {
+    padding: .6em;
+    padding-left: 13em;
+    width: 450%;
+    /* border: 1px solid hotpink; */
+   }
+
+
+ .learn_more {
+    background-color: black;
+    padding: 1em;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 1em;
+    cursor: pointer;
+    border: none;
+ }
+
+ .learn_more a {
+   margin-top: 1.3em;
+    color: rgb(105, 103, 103);
+    text-decoration: none;
+ }
+
+ .db {
+  /* border: 1px solid rgb(245, 10, 10); */
+  padding: 0;
+ }
+
+ .img {
+    /* border: 1px solid rgb(126, 6, 6); */
+    padding: 0;
+    margin-top: 3.5em;
+ }
+
+ .mini p {
+    font-weight: bold;
+    color: rgb(68, 66, 66)
+ }
